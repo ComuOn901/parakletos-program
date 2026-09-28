@@ -1,0 +1,56 @@
+{
+  "$schema": "[link removed]",
+  "version": "1.0.0",
+  "specification_id": "SPEC__PRIME_GOVERNANCE_HARMONIZATION__20260927_v0.1",
+  "enforcement_mode": "OBSERVE_ONLY",
+  "steward": "maxdev901@gmail.com",
+  "system_role": "OLIVE__INFERENCE_ORCHESTRATION",
+  "authority_effect": "NONE",
+  "prime_naming": {
+    "pattern": "^[A-Z0-9]+__[A-Z0-9-]+__[A-Z]{3}__[0-9]{8}_v[0-9]+\\.[0-9]+$",
+    "allowed_modes": ["HIST", "SIM", "OBS", "VER", "AUT", "EXE", "ACC", "UNK"]
+  },
+  "provenance_registry": [
+    {
+      "purpose": "MCPOS",
+      "responsibility": "SYSTEM-ADAPTER",
+      "repository": "ComuOn901/o2o_MacOS-MCPos",
+      "canonical_name": "MCPOS__SYSTEM-ADAPTER__OBS__20260927_v0.1",
+      "status": "OBSERVED"
+    },
+    {
+      "purpose": "SDG",
+      "responsibility": "ACCESSIBILITY",
+      "repository": "ComuOn901/o2o_sdg-accessibility",
+      "canonical_name": "SDG__ACCESSIBILITY__OBS__20260927_v0.1",
+      "status": "OBSERVED"
+    },
+    {
+      "purpose": "PUBLICGOODS",
+      "responsibility": "CANDIDATES",
+      "repository": "ComuOn901/o2o_publicgoods-candidates",
+      "canonical_name": "PUBLICGOODS__CANDIDATES__OBS__20260927_v0.1",
+      "status": "OBSERVED"
+    },
+    {
+      "purpose": "NOHARM",
+      "responsibility": "ETHICAL-USE-BOUNDARY",
+      "repository": "ComuOn901/o2o_NoHarm",
+      "canonical_name": "NOHARM__ETHICAL-USE-BOUNDARY__OBS__20260927_v0.1",
+      "status": "OBSERVED"
+    }
+  ],
+  "parakletos_quorum": {
+    "status": "PAUSED_AWAITING_OLIE",
+    "primary_node": {
+      "role": "Mothership (OLIVE)",
+      "ip": "127.0.0.1",
+      "port": 8080
+    },
+    "secondary_node": {
+      "role": "Exodus Shard (OLIE)",
+      "ip": "acceairaze.local",
+      "port": 9090
+    }
+  }
+}

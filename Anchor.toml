@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+parakletos_quorum = "8FTMPuywJu7x3DkwzAMwr1yCZcZpWT1d5qoB54dNnhDd"
+
+[registry]
+url = "[link removed]"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npx ts-node tests/parakletos.ts"
