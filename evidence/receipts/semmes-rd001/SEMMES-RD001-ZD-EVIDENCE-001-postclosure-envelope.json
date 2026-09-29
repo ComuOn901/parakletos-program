@@ -1,0 +1,34 @@
+{
+  "reportId": "report_a5b7f7ec-25c9-4a32-a43f-9441274a82f8",
+  "createdAt": "2026-09-29T18:08:58.022Z",
+  "mode": "OBS",
+  "source": "SEMMES-RD001",
+  "authorityEffect": "NONE",
+  "classification": "SANITIZED_EXTERNAL",
+  "content": {
+    "summary": "ZD-EVIDENCE-001 closure observed after separately recorded operator decision and closure execution.",
+    "facts": {
+      "eventId": "SEMMES-RD001-ZD-EVIDENCE-001",
+      "eventClass": "UNPROVEN_PRECISION_PROMOTION",
+      "lifecycleState": "CLOSED",
+      "closed": true,
+      "closureExecuted": true,
+      "preClosureWitnessManifestSha256": "59804059c35420fa25eafb42bd5fb2b96554a6fb50134dc19c6d4a76140d2dd9",
+      "operatorDecisionRecordSha256": "17ff5600405590efd1b48c772fd54879b6fb82349d6db22127f521c6c641f3f5",
+      "closureRecordSha256": "15e3567cfa12dfc4a09b1396fdee6dfecf36df23121782623dc42d3fc4b7cd58",
+      "postClosureOperatorLedgerSha256": "ab31ba980b96c5d641828e74f3ef453ca65d3f4fc609d36f6edb4ea462d5df72",
+      "productionAuthorityChanged": false,
+      "numaRegistryMutated": false,
+      "policyAdopted": false,
+      "onchainMutation": false,
+      "authorityEffect": "NONE"
+    }
+  },
+  "boundaryAllowlist": {},
+  "publication": {
+    "slack": "NOT_REQUESTED",
+    "gmail": "NOT_REQUESTED",
+    "drive": "NOT_REQUESTED",
+    "evolution": "NOT_REQUESTED"
+  }
+}

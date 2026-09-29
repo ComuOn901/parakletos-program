@@ -1,0 +1,13 @@
+{
+  "requestId": "request_923f3235-3693-4e12-8fb1-cb65d8508ca6",
+  "reportId": "report_a5b7f7ec-25c9-4a32-a43f-9441274a82f8",
+  "adapter": "semmes-evidence",
+  "effectClass": "UNKNOWN",
+  "authorizationState": "NOT_REQUESTED",
+  "executionState": "NOT_PERFORMED",
+  "observedAt": "2026-09-29T18:08:58.023Z",
+  "source": "SEMMES-RD001",
+  "preState": "UNKNOWN",
+  "postState": "READY",
+  "authorityEffect": "NONE"
+}

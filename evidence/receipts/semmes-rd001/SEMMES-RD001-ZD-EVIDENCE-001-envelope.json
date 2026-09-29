@@ -1,0 +1,33 @@
+{
+  "reportId": "report_2d9e6737-a189-4908-a53b-d4b2d54db4df",
+  "createdAt": "2026-09-29T18:03:22.491Z",
+  "mode": "OBS",
+  "source": "SEMMES-RD001",
+  "authorityEffect": "NONE",
+  "classification": "SANITIZED_EXTERNAL",
+  "content": {
+    "summary": "ZD-EVIDENCE-001 is closure-eligible; final closure remains separately operator-authorized and unperformed.",
+    "facts": {
+      "eventId": "SEMMES-RD001-ZD-EVIDENCE-001",
+      "eventClass": "UNPROVEN_PRECISION_PROMOTION",
+      "lifecycleState": "CLOSURE_ELIGIBLE",
+      "closed": false,
+      "regressionProofSha256": "24ce448011fd5d419eac9170ab38e7d7f23dc6801a91a4adaea6f2facb07063f",
+      "preClosureOperatorLedgerSha256": "1a80c21cb1af9648355e96d0a8818fc2d35b0c1633764cbfa94f7cdbebd7b640",
+      "semmesSideLinkSha256": "c30ff7206d3e88ad722fecba1396fa37a7c995e259069b6938e84f4e48463515",
+      "sourceAdmissionState": "ADMITTED_REFERENCE_ONLY",
+      "adoptionState": "REFERENCE_ONLY",
+      "numaRegistryMutated": false,
+      "policyAdopted": false,
+      "onchainMutation": false,
+      "authorityEffect": "NONE"
+    }
+  },
+  "boundaryAllowlist": {},
+  "publication": {
+    "slack": "NOT_REQUESTED",
+    "gmail": "NOT_REQUESTED",
+    "drive": "NOT_REQUESTED",
+    "evolution": "NOT_REQUESTED"
+  }
+}
