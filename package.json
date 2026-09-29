@@ -1,0 +1,14 @@
+{
+  "name": "parakletos-reporting-layer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:reporting": "tsx --test tests/reporting/*.test.ts",
+    "typecheck:reporting": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
